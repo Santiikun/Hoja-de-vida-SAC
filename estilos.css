@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 30px 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #84716B;
+    font-style: italic;
+}
+
+.container-all{
+    position: relative;
+    box-shadow: 2px 2px 2px 1px #222831;
+    background-color: rgb(30, 228, 255);
+    width: 65%;
+    padding: 20px 0 50px 0;
+}
+.about__hero{
+    text-align: center;
+    background-color: #CCE7D4;
+    padding: 30px 0 30px 0;
+    
+    
+}
+.datos__personales{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0 30px 0 30px ;
+
+}
+
+.estudios_capacitaciones{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0 30px 0 30px ;
+
+}
+.referencia{
+    padding: 0 30px 0 30px;
+}
+.grid__referencia{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 20px 0 20px;
+    
+}
+.fot{
+    
+    padding: 0 650px;
+}
+.foto img{
+    
+    width: 150px;
+    height: 150px;
+}
+
+.titulo{
+    color: #51A8B1;
+    text-align: center;
+    background-color: white;
+}
+.subtitulo{
+    color: #FE1E1E;
+}
+
+.dat{
+    padding: 0 20px 0 20px;
+}
+hr{
+    color:#84716B;
+}
+.nivel{
+    color:#84716B ;
+}
+.datos{
+    position: relative;
+    top: -10em;
+}
+
+.estudios{
+    position: relative;
+    top: -8em;
+}
